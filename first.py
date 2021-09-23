@@ -1,0 +1,16 @@
+#input of information
+name=input('Your name: ')
+surname=input('Your surname: ')
+phone=input('Your phone number: ')
+street=input('Your street name: ')
+house=input('Your house number: ')
+apartment=input('Your apartment number: ')
+city=input('Your city: ')
+index=input('Your index: ')
+country=input('Your country: ')
+#output information
+print(name, surname)
+print(phone)
+print('Str. ' + street  + ' ' + house + ', ap. ' + apartment  + ', ' + city )
+print(index)
+print(country)
